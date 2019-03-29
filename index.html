@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Sorting</title>
+        <style>
+            table{
+                
+                width:300px;
+                border : 1px solid black;
+            }
+            th{
+                cursor:pointer;
+            }
+            th, td{
+                padding: 10px;
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <table id="myTable">
+            <tr>
+                <th onclick="sortTable(0)">Car</th>
+                <th onclick="sortTable(1)">Alphabet</th>
+            </tr>
+            <tr>
+                <td>Honda</td>
+                <td>Q</td>
+            </tr>
+            <tr>
+                <td>Nissan</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Porshe</td>
+                <td>D</td>
+            </tr>
+            <tr>
+                <td>Tesla</td>
+                <td>Z</td>
+            </tr>
+        </table>
+
+        <script src="sort.js"></script>
+
+    </body>
+</html>
